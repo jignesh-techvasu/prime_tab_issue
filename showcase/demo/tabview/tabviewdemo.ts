@@ -9,7 +9,7 @@ export class TabViewDemo {
     msgs: Message[];
 
 
-    selectedTab = 'tab1';
+    selectedTab : string = 'tab1';
 
     onTabChange(event) {
         this.msgs = [];
